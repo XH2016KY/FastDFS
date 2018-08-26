@@ -1,4 +1,5 @@
 FROM hub.c.163.com/public/centos:7.2-tools
+MAINTAINER GGG
 RUN yum -y install gcc-c++
 RUN yum -y install make
 RUN yum -y install pcre pcre-devel
